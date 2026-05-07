@@ -6,7 +6,7 @@ st.title("🏥 Medical Case Chatbot")
 st.caption("Ask anything about the Ahmed Raza Khan case file")
 st.divider()
 
-WEBHOOK_URL = "https://fatimakhan1.app.n8n.cloud/webhook-test/848af134-a1dd-4d95-8267-05f1535aaf8b"
+WEBHOOK_URL = "https://fatimakhan1.app.n8n.cloud/webhook/848af134-a1dd-4d95-8267-05f1535aaf8b"
 
 if "messages" not in st.session_state:
     st.session_state.messages = []
